@@ -3,14 +3,18 @@ body{
   font-size: 150%;
 }
 
-}
 
 header{
     background-color: lightblue;
 }
 
-nav{
-    background-color: lightgray;
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
 }
 
 main{
@@ -26,6 +30,9 @@ li{
     display: inline-block;
     width: 150px;
 }
+/* li {
+    display: inline;
+} */
 
 h1{
     text-align: center;
@@ -36,3 +43,26 @@ h1{
 p{
     line-height: 1.5;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+.grid {
+    justify-content: center;
+    align-items: start;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
